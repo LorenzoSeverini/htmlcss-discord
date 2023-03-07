@@ -49,9 +49,10 @@ nav{
     width: 20%;
     color: #23272a;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 2px 7px;
+    border: .3125rem solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: .3125rem .625rem;
+    box-shadow: .3125rem .3125rem .3125rem #333232;
 }
 
 div > a{
@@ -75,12 +76,35 @@ div > a{
     width: 50%;
     height: 100%;
     text-align: center;
-    vertical-align: middle;
     padding: 5rem;
 }
 
 h1{
     font-size: 3rem;
+}
+
+.flexContent{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5625rem;
+}
+
+.whiteButton{
+    color: #23272a;
+    background-color: rgb(255, 255, 255);
+    border: .3125rem solid rgb(255, 255, 255); 
+    border-radius: 1.25rem;
+    padding: .3125rem .625rem;
+    box-shadow: .3125rem .3125rem .3125rem #333232;
+}
+
+.blackButton{
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border: .3125rem solid rgb(0, 0, 0);
+    border-radius: 1.25rem;
+    padding: .3125rem .625rem;
+    box-shadow: .3125rem .3125rem .3125rem #333232
 }
 #heroContent > p{
     margin-top: 2rem;  
@@ -136,10 +160,18 @@ h2{
 #greenBoxed{
     width: 100%;
     height: 100%;
-    background-color: #228b22;
+    text-align: center;
 
 }
 
+.discordButton{
+    color: white;
+    background-color: #8ea1e1;
+    border: .3125rem solid #8ea1e1; 
+    border-radius: 1.25rem;
+    padding: .3125rem .625rem;
+    box-shadow: .3125rem .3125rem .3125rem #333232;
+}
 /* footer diviso in 2 parti */
 
 /* prima parte sezione con colonne 1 grande e 4 uguali */
@@ -155,30 +187,43 @@ footer{
 }
 
 .footerTopLeft{
-    background-color: lightcoral;
     height: 100%;
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#italianFlag{
+    width: 25px;
 }
 
 .footerTopRight{
-    background-color: lightseagreen;
     height: 100%;
     width: 70%;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
 } 
 
 .footerColumn{
-    width: calc(100/4);
+    width: 25%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 hr{
-    border: 2px solid white;
+    border: 0,.3125rem solid white;
 }
 
 /* seconda parte footer */
 
 .footerBottom{
-    background-color: #7fffd4;
     height: 6.25rem;
     margin-top: 1.25rem;
     justify-content: space-between;
@@ -187,6 +232,13 @@ hr{
 
 .footerLateralColumn {
     padding: 0.5rem;
-    background-color: #ee82ee;
-    color: grey;
+}
+
+.footerLateralColumn > button{
+    color: white;
+    background-color: #8ea1e1;
+    border: .3125rem solid #8ea1e1; 
+    border-radius: 1.25rem;
+    padding: .3125rem .625rem;
+    box-shadow: .3125rem .3125rem .3125rem #333232;
 }
