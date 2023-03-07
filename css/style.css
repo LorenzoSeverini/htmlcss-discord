@@ -1,0 +1,179 @@
+/* layouyt discord */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+}
+
+/* parte iniziale con header e contenitori dentro flex */
+
+header{
+    max-width: 120rem;
+    min-height: 37.5rem;
+    background-color: #add8e6;
+    padding-top: 1rem;
+}
+
+/* nav con elementi all'interno */
+
+nav{
+    max-width: 78.25rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 1.25rem;
+}
+
+.flexCol{
+    background-color: #daa520;
+}
+
+#navleft{
+    padding: 1rem;
+    width: 20%;
+}
+
+#navcenter{
+    padding: 1rem;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+#navright{
+    padding: 1rem;
+    text-align: right;
+    width: 20%;
+}
+
+div > a{
+    text-decoration: none;
+}
+
+/* contenitore blu dopo nav */
+
+#hero{
+    height: 32.5rem;
+    background-color: #00008b;
+    margin-top: 1rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heroContent{
+    width: 50%;
+    height: 100%;
+    background-color: #ee82ee;
+}
+
+/* main con 3 sezioni + 1 grande */
+
+.boxed{ 
+    max-width: 78.25rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+.row > div.boxed{
+    height: 31.25rem;
+    padding: 3.125rem 0 3.125rem 0;
+}
+.whiteBoxed{
+    background-color: #ffffff;
+}
+
+.greyBoxed{
+    background-color: #d3d3d3;
+}
+
+.blueRow{
+    width: 60%;
+    height: 100%;
+    background-color:#1e90ff;
+}
+
+.pinkRow{
+    width: 40%;
+    height: 100%;
+    background-color: #ffc0cb;
+}
+
+/* sezione grigia con cont verde dentro grande */
+
+#grey{
+    background-color: #d3d3d3;
+}
+
+#contgreen{
+    max-width: 78.25rem;
+    height: 62.5rem;
+    margin: 0 auto;
+    padding: 3.125rem 0 3.125rem 0;
+    display: flex;
+
+}
+
+#greenBoxed{
+    width: 100%;
+    height: 100%;
+    background-color: #228b22;
+
+}
+
+/* footer diviso in 2 parti */
+
+/* prima parte sezione con colonne 1 grande e 4 uguali */
+
+footer{
+    background-color: #23272a;
+}
+
+.footerTop{
+    height: 31.25rem;
+    padding-bottom: 3.125rem;
+    padding-top: .625rem;
+}
+
+.footerTopLeft{
+    background-color: lightcoral;
+    height: 100%;
+    width: 30%;
+}
+
+.footerTopRight{
+    background-color: lightseagreen;
+    height: 100%;
+    width: 70%;
+    display: flex;
+} 
+
+.footerColumn{
+    width: calc(100/4);
+}
+
+hr{
+    border: 2px solid white;
+}
+
+/* seconda parte footer */
+
+.footerBottom{
+    background-color: #7fffd4;
+    height: 6.25rem;
+    margin-top: 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerLateralColumn {
+    padding: 0.5rem;
+    background-color: #ee82ee;
+    color: grey;
+}
