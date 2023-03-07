@@ -12,11 +12,16 @@
 header{
     max-width: 120rem;
     min-height: 37.5rem;
-    background-color: #add8e6;
     padding-top: 1rem;
+    color: white;
+    background-image: url(/img/jumbo.png);
+    background-color: #1e90ff;
 }
-
 /* nav con elementi all'interno */
+
+svg{
+    background-color: #228b22;
+}
 
 nav{
     max-width: 78.25rem;
@@ -26,10 +31,7 @@ nav{
     justify-content: space-between;
     margin: 0 auto;
     font-size: 1.25rem;
-}
-
-.flexCol{
-    background-color: #daa520;
+    color: white;
 }
 
 #navleft{
@@ -49,17 +51,22 @@ nav{
     padding: 1rem;
     text-align: right;
     width: 20%;
+    color: #23272a;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 2px 7px;
 }
 
 div > a{
     text-decoration: none;
+    color: white;
 }
 
 /* contenitore blu dopo nav */
 
 #hero{
     height: 32.5rem;
-    background-color: #00008b;
     margin-top: 1rem;
     padding: 3rem;
     display: flex;
@@ -70,9 +77,17 @@ div > a{
 #heroContent{
     width: 50%;
     height: 100%;
-    background-color: #ee82ee;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5rem;
 }
 
+h1{
+    font-size: 3rem;
+}
+#heroContent > p{
+    margin-top: 2rem;  
+}
 /* main con 3 sezioni + 1 grande */
 
 .boxed{ 
