@@ -15,7 +15,7 @@ header{
     padding-top: 1rem;
     color: white;
     background-image: url(/img/jumbo.png);
-    background-color: #1e90ff;
+    background-size: cover;
 }
 /* nav con elementi all'interno */
 
@@ -61,6 +61,7 @@ nav{
 div > a{
     text-decoration: none;
     color: white;
+    margin: 0 1rem;
 }
 
 /* contenitore blu dopo nav */
