@@ -14,14 +14,10 @@ header{
     min-height: 37.5rem;
     padding-top: 1rem;
     color: white;
-    background-image: url(/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
 }
 /* nav con elementi all'interno */
-
-svg{
-    background-color: #228b22;
-}
 
 nav{
     max-width: 78.25rem;
@@ -112,15 +108,16 @@ h1{
 .blueRow{
     width: 60%;
     height: 100%;
-    background-color:#1e90ff;
 }
 
 .pinkRow{
     width: 40%;
     height: 100%;
-    background-color: #ffc0cb;
 }
 
+h2{
+    font-size: 3rem;
+}
 /* sezione grigia con cont verde dentro grande */
 
 #grey{
