@@ -98,13 +98,19 @@ h1{
     box-shadow: .3125rem .3125rem .3125rem #333232;
 }
 
+.whiteButton > a{
+    text-decoration: none;
+    color: #23272a;
+}
+
 .blackButton{
     color: #ffffff;
     background-color: rgb(0, 0, 0);
     border: .3125rem solid rgb(0, 0, 0);
     border-radius: 1.25rem;
     padding: .3125rem .625rem;
-    box-shadow: .3125rem .3125rem .3125rem #333232
+    box-shadow: .3125rem .3125rem .3125rem #333232;
+    text-decoration: none;
 }
 #heroContent > p{
     margin-top: 2rem;  
@@ -171,6 +177,8 @@ h2{
     border-radius: 1.25rem;
     padding: .3125rem .625rem;
     box-shadow: .3125rem .3125rem .3125rem #333232;
+    width: 180px;
+    margin: 0 auto;
 }
 /* footer diviso in 2 parti */
 
@@ -219,6 +227,8 @@ footer{
 
 hr{
     border: 0,.3125rem solid white;
+    width: 78.25rem;
+    margin: 0 auto;
 }
 
 /* seconda parte footer */
@@ -234,7 +244,7 @@ hr{
     padding: 0.5rem;
 }
 
-.footerLateralColumn > button{
+.footerLateralColumn > a{
     color: white;
     background-color: #8ea1e1;
     border: .3125rem solid #8ea1e1; 
