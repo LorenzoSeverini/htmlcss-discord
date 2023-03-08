@@ -47,12 +47,26 @@ nav{
     padding: 1rem;
     text-align: right;
     width: 20%;
+}
+
+div a:hover{
+    text-decoration: underline;
+}
+
+#navright > a{
     color: #23272a;
     background-color: rgb(255, 255, 255);
     border: .3125rem solid rgb(255, 255, 255);
     border-radius: 20px;
-    padding: .3125rem .625rem;
+    padding: .125rem .425rem;
     box-shadow: .3125rem .3125rem .3125rem #333232;
+    transform: 0.3s;
+}
+
+#navright > a:hover{
+    color: white;
+    background-color: #333232;
+    text-decoration: none;
 }
 
 div > a{
@@ -80,7 +94,11 @@ div > a{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 4.375rem;
+}
+
+.heroContent > p{
+    font-size: 1.25rem;
 }
 
 .flexContent{
@@ -147,7 +165,27 @@ h1{
 
 h2{
     font-size: 3rem;
+    margin: 1rem 0;
 }
+
+.pink h2 > p{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.wave{
+    background-image: url(../img/wave.svg);
+    height: 6.25rem;
+    opacity: 0.17;
+}
+
+.waveBack{
+    background-image: url(../img/wave.svg);
+    height: 6.25rem;
+    opacity: 0.17;
+    transform: rotate(180deg)
+}
+
 /* sezione grigia con cont verde dentro grande */
 
 #grey{
@@ -156,7 +194,6 @@ h2{
 
 #contgreen{
     max-width: 78.25rem;
-    height: 62.5rem;
     margin: 0 auto;
     padding: 3.125rem 0 3.125rem 0;
     display: flex;
@@ -179,6 +216,7 @@ h2{
     box-shadow: .3125rem .3125rem .3125rem #333232;
     width: 180px;
     margin: 0 auto;
+    background-image: url(../img/stars.svg)
 }
 /* footer diviso in 2 parti */
 
@@ -186,6 +224,7 @@ h2{
 
 footer{
     background-color: #23272a;
+    margin-top: 6.25rem;
 }
 
 .footerTop{
@@ -231,6 +270,9 @@ hr{
     margin: 0 auto;
 }
 
+h3, h4{
+    color: #8ea1e1;
+}
 /* seconda parte footer */
 
 .footerBottom{
